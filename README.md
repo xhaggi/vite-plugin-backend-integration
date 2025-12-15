@@ -17,7 +17,7 @@ npm install -D vite-plugin-backend-integration
 
 ```js
 import { defineConfig } from 'vite';
-import { backendIntegration } from 'vite-plugin-backend-integration';
+import backendIntegration from 'vite-plugin-backend-integration';
 
 export default defineConfig({
   plugins: [
